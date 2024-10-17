@@ -128,3 +128,36 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# macOS system files
+.DS_Store
+.Trash/
+Icon\r
+
+# User configuration files
+.bash_history
+.zsh_history
+.zshrc
+.ssh/
+.gitconfig
+.vscode/
+.p10k.zsh
+.idlerc/
+.local/
+.config/
+
+# Ignorera överflödiga mappar och filer
+../../Applications/
+../../Desktop/
+../../Documents/
+../../Downloads/
+../../Library/
+../../Movies/
+../../Music/
+../../Pictures/
+../../Public/
+../../powerlevel10k/
+../../Grupp-repo/
+../../Grupparbete/
+../../Eget projekt/
