@@ -1,2 +1,2 @@
 # game
-roullet_game_and_exercises
+roullet-game-with-exercises
