@@ -27,9 +27,21 @@ function rollGame(event) {
   console.log(`Number: ${random}, color: ${table[random]}`)
 
   console.log('You just rolled :)')
-  const logMessage = `<p>Bet is ${bet.value} spinning the wheel...Stopped at ${random}. You won/lost</p>`;
+
+let resultMessage="";
+
+if (parseInt(bet.value) === random){
+    resultMessage = "you won";
+} else resultMessage= "you lost";
+
+  const logMessage = `<p>Bet is ${bet.value} spinning the wheel...Stopped at ${random}. ${resultMessage}</p>`
+
   log.innerHTML = logMessage + log.innerHTML;
+
+  console.log(`Selected color: ${selectedColor.value}, Rolled number: ${random}, Resulting color: ${color}`);
 }
+
+
 
 
 /**
