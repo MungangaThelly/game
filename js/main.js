@@ -27,7 +27,7 @@ function rollGame(event) {
   console.log(`Number: ${random}, color: ${table[random]}`)
 
   console.log('You just rolled :)')
-  const logMessage = `<p>Bet is ??? spinning the wheel...Stopped at ?????. You won/lost</p>`
+  const logMessage = `<p>Bet is ${bet.value} spinning the wheel...Stopped at ${random}. You won/lost</p>`;
   log.innerHTML = logMessage + log.innerHTML;
 }
 
