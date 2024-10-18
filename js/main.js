@@ -30,7 +30,7 @@ function rollGame(event) {
 
 let resultMessage="";
 
-if (parseInt(bet.value) === random){
+if (parseInt(bet.value) === random && selectedColor.value === color){
     resultMessage = "you won";
 } else resultMessage= "you lost";
 
